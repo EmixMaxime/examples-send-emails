@@ -21,7 +21,7 @@ const data = {
   from: 'inscription@mxteaches.me',
   to,
   subject: "Email de bienvenue pour les testeurs, merci à vous!",
-  html: fs.readFileSync('./welcome.html')
+  html: fs.readFileSync('../welcome.html')
 };
 
 transporter.sendMail(data, (err, info) => {
