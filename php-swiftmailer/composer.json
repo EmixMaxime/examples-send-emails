@@ -1,0 +1,6 @@
+{
+    "name": "emix/testswiftmailer",
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4"
+    }
+}
